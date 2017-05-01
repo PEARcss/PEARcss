@@ -1,14 +1,7 @@
 /*  **
   * www.neuetab.com
   * Created by: Errol Thomas
-  * Licensed under MIT <--- https://github.com/thomase718/Gridiron/blob/master/LICENSE --->
-  * Two ways to apply columns in this grid-container
-	1. For fixed width columns use name designation i.e 
-	(third-s) means 3 columns on small screen, 
-	(quarter-lg) means 4 columns on large screen, etc etc.
-	2. For spreading content across any amount of columns the "across" designation:
-	(.across-7-m) means spread content across 7 columns on medium-sized screens 
- */
+  * Licensed under MIT <--- https://github.com/PEARcss/PEARcss/blob/master/LICENSE --->
 /*reset style*/
 *
 {margin:0; padding:0; border:0; outline:none; list-style-type:none; text-decoration:none;  

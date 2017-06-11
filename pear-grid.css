@@ -27,8 +27,8 @@ a {cursor:pointer;} p{line-height:1.5em;}
 	font-family:Source Sans Pro;
 }
 /** Position element left or right **/
-pos-left{position:absolute; left:0;}
-pos-right{position:absolute; right:0;}
+.pos-left{position:absolute; left:0;}
+.pos-right{position:absolute; right:0;}
 /** font-styling****/
 .italic {font-style:italic;}
 

@@ -1,11 +1,11 @@
 /*  **
-  * www.neuetab.com
   * Created by: Errol Thomas
-  * Licensed under GNU General Public License v3.0 <--- https://github.com/PEARcss/PEARcss/blob/master/LICENSE --->
+  * Licensed under MIT <--- https://github.com/PEARcss/PEARcss/blob/master/LICENSE --->
 /*reset style*/
 *
-{margin:0; padding:0; border:0; outline:none; list-style-type:none; text-decoration:none;
- box-sizing: border-box;}
+{margin:0; padding:0; border:0; outline:none; list-style-type:none; text-decoration:none;  
+ -webkit-box-sizing: border-box;
+  box-sizing: border-box;}
 
 a {cursor:pointer;} p{line-height:1.5em;}
 .grid-container{width:100%; max-width:2600px; height:100%; margin:0 auto;}
@@ -26,9 +26,6 @@ a {cursor:pointer;} p{line-height:1.5em;}
 	font-size:1.3em;
 	font-family:Source Sans Pro;
 }
-/** Position element left or right **/
-.pos-left{position:absolute; left:0;}
-.pos-right{position:absolute; right:0;}
 /** font-styling****/
 .italic {font-style:italic;}
 
@@ -63,8 +60,7 @@ a {cursor:pointer;} p{line-height:1.5em;}
 .across-1-s {width: 8.33333333%;}
 /** article and content column spreads**/
  .two-col, .three-col{
-	-webkit-column-count: 1;
-    -moz-column-count: 1; 
+	-webkit-column-count: 1; 
     column-count: 1;
  }
 }
@@ -99,35 +95,27 @@ a {cursor:pointer;} p{line-height:1.5em;}
 .across-1-m {width: 8.33333333%;}
 /** article and content column spreads**/
  .two-col{
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */ /* Firefox */
     column-count: 2;
 	-webkit-column-gap: 1em; 
-    -moz-column-gap: 1em; 
-    column-gap: 1em;
-	 -moz-column-rule-style: solid; 
-    -webkit-column-rule-style: solid; 
-	         column-rule-style: solid;
+    column-gap: 1em; 
+  -webkit-column-rule-style: solid; 
+          column-rule-style: solid;
     -webkit-column-rule-width: 1px; 
-    -moz-column-rule-width: 1px; 
     column-rule-width: 1px;
  }
  .three-col{
-	 -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
+	 -webkit-column-count: 3; /* Chrome, Safari, Opera */ /* Firefox */
     column-count: 3;
 	-webkit-column-gap: 1em; 
-    -moz-column-gap: 1em; 
-    column-gap: 1em;
-	 -moz-column-rule-style: solid; 
-    -webkit-column-rule-style: solid; 
-	         column-rule-style: solid;
+    column-gap: 1em; 
+  -webkit-column-rule-style: solid; 
+          column-rule-style: solid;
     -webkit-column-rule-width: 1px; 
-    -moz-column-rule-width: 1px; 
     column-rule-width: 1px;
  }
 }
-@media all and (min-width: 70em){/*all other and higher 1120px+ */
+@media all and (min-width: 64em){/*all other and higher 1024px+ */
 .full-width-lg, .half-width-lg, .third-lg, .quarter-lg, .fifth-lg, .sixth-lg, .seventh-lg, .eighth-lg, .nineth-lg, .tenth-lg, .eleventh-lg, .twelfth-lg, .across-1-lg, .across-2-lg, .across-3-lg, .across-4-lg, .across-5-lg, .across-6-lg, .across-7-lg, .across-8-lg, .across-9-lg, .across-10-lg, .across-11-lg, .across-12-lg{
 	float:left; padding:0; margin:0;
 }
@@ -168,7 +156,7 @@ a {cursor:pointer;} p{line-height:1.5em;}
 	.only-lg{display:none;}
 	.hidden-m{display:none;}
 }
-@media all and (min-width: 70em){
+@media all and (min-width: 64em){
 	.only-s{display:none;}
 	.only-m{display:none;}
 	.hidden-lg{display:none;}
